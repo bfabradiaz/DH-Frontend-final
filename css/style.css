@@ -20,7 +20,6 @@ body{
     font-family: 'Be Vietnam Pro', sans-serif; 
 }
 
-
 /* header */
 
 header{
@@ -29,6 +28,7 @@ header{
     align-items: center;
     margin: 2rem;
 }
+
 .nav-list{
     display: none;
 }
@@ -41,7 +41,7 @@ header{
     text-decoration: none;
     font-size: 0.8em;
     color: var(--azul-oscuro);
-    font-weight: 600;
+    font-weight: 700;
     transition: all 0.5s ease;
 }
 
@@ -73,24 +73,26 @@ main>section:nth-child(1){
 .img-container>img{
     width: 100%;
 }
+
 .text-container{
     width: 250px;
     text-align: center;
     margin: auto;
 }
+
 .text-container>h1,
 .text-container>h2{
     font-size: 1.8em;
     color: var(--azul-oscuro);
-    font-weight: 800;
+    font-weight: 700;
 }
+
 .text-container>p{
     font-size: .8em;
     line-height: 1.8em;
     margin-top: 5px;
-    font-weight:300 ;
-    color:var(--azul-grisaceo-oscuro);
-    
+    font-weight:400 ;
+    color:var(--azul-grisaceo-oscuro);    
 }
 
 header>a,
@@ -100,7 +102,7 @@ header>a,
     text-decoration: none;
     color: var(--variante-gris-claro);
     font-size: 0.5em;
-    font-weight: 600;
+    font-weight: 700;
     padding-top: 10px;
     margin-top: 20px;
     cursor: pointer;
@@ -118,8 +120,9 @@ header>a,
 }
 
 .bttn:hover{
-    opacity: 0.5;
+    opacity: 0.7;
 }
+
 /* main - seccion 2 */
 main>section:nth-child(2){
     width: 100%;
@@ -148,11 +151,10 @@ main>section:nth-child(2){
 .text-list-container>p{
     font-size: 0.8em;
     line-height: 1.8em;
-    font-weight:300 ;
+    font-weight:400 ;
     color:var(--azul-grisaceo-oscuro);
     text-align: start;
     margin: 10px 20px 20px 25px;
-
 }
 
 .item-number{
@@ -169,6 +171,7 @@ main>section:nth-child(2){
     font-size: 10px;
     font-weight: 400;
 }
+
 /* main - seccion 3 */
 main>section:nth-child(3){
     width: 100%;
@@ -182,7 +185,7 @@ main>section:nth-child(3){
 .cards-section-title{
     font-size: 1.8em;
     color: var(--azul-oscuro);
-    font-weight: 600;
+    font-weight: 500;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -193,7 +196,11 @@ main>section:nth-child(3){
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    position: relative;    
+}
+
+.card-text-container:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
 .card-text-container{
@@ -203,6 +210,7 @@ main>section:nth-child(3){
     text-align: center;
     padding: 80px 0;
     gap:30px;
+    transition: all 0.8s ease;
 }
 
 .card-text-container>h4{
@@ -218,7 +226,7 @@ main>section:nth-child(3){
     width: 80%;
     font-size: 0.9em;
     line-height: 1.8em;
-    font-weight:300 ;
+    font-weight:400;
     color:var(--azul-grisaceo-oscuro);
     margin: auto;
 }
@@ -246,15 +254,18 @@ main>section:nth-child(3){
     padding: 50px 0;
     margin-top: 20px;
 }
+
 .pre-footer-title{
     width: 60%;
     height: 250px;
 }
+
 .pre-footer-title>h2{
     color: white;
     text-align: center;
     margin: auto;
 }
+
 .pre-footer-bttn{
     width: 100%;
     height: 250px;
@@ -262,6 +273,7 @@ main>section:nth-child(3){
     justify-content: center;
     align-items: center;
 }
+
 .pre-footer-bttn>.bttn{
     background-color: var(--variante-gris-claro);
     color: var(--rojo-brillante);
@@ -309,7 +321,7 @@ footer{
     width: 60px;
     box-shadow: none;
     color: var(--variante-gris-claro);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 0.7em;
 }
 
@@ -318,7 +330,6 @@ footer{
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
-
 }
 
 .first-list>ul>li,
@@ -326,6 +337,7 @@ footer{
     list-style: none;
     margin-top: 10px;
 }
+
 .first-list>ul>li>a,
 .second-list>ul>li>a{
     text-decoration: none;
@@ -333,8 +345,6 @@ footer{
     font-size: 0.8em;
     transition: all 0.5s ease;
 }
-
-
 
 .first-list>ul>li>a:hover,
 .second-list>ul>li>a:hover{
@@ -347,6 +357,7 @@ footer{
     flex-direction: column;
     align-items: center;
 }
+
 .icons-footer-container{
     width: 100%;
     display: flex;
@@ -394,9 +405,11 @@ footer{
     header>a{
         margin-top: 0;
     }
+
     .fa-bars{
         display:none;
     }
+
     /* main */
     main{
         display: flex;
@@ -404,6 +417,7 @@ footer{
         align-items: center;
         flex-direction: column;
     }
+
     /* main - seccion 1 */
     main>section:nth-child(1){
         width:80%;
@@ -411,27 +425,31 @@ footer{
         flex-direction: row-reverse;
         justify-content: space-between;
         gap:20px;
-        /* background-color: purple; */
     }
+
     .text-container{
         text-align: start;
         width: 40%;
-        /* background-color: yellow; */
         margin:0;
     }
+
     .img-container{
         width: 40%;
         height: auto;
-    } 
+    }
+
     .img-container>img{
         width: 100%;
     }
+
     .text-container>h1{
         font-size: 2.5em;
     }
+
     .text-container>p{
         font-size: 1.2em;
     }
+
     /* main - seccion 2 */
     main>section:nth-child(2){
         width:80%;
@@ -455,6 +473,7 @@ footer{
     .text-list-container{
         margin-top: 0;
     }
+
     .text-list-container>h4{
         width: 80%;
         text-align: start;
@@ -463,6 +482,7 @@ footer{
         padding-left: 0;
         background-color: transparent;
     }
+
     .item-number{
         left:-60px;
         text-align: center;
@@ -472,21 +492,26 @@ footer{
     .cards-container{
         display: flex;
     }
+
     .card{
         height: 300px;
     }
+
     .card>img{
         top:-4%;
     }
+
     .card-text-container{
         padding-top: 70px;
         width: 95%;
         height: 220px;
     }
+
     .card-text-container>h4{
         width: 90%;
         padding-bottom: 10px;
     }
+
     .card-text-container>p{
         width: 90%;
     }
@@ -505,15 +530,18 @@ footer{
         display: flex;
         align-items: center;
     }
+
     .pre-footer-bttn{
         width: 30%;
         height: 150px;
         display: flex;
         justify-content: end;
     }
+
     .pre-footer-title>h2{
         text-align: start;
     }
+
     .pre-footer>.bttn{
         display:inline-block;
     }
@@ -524,9 +552,11 @@ footer{
         width: 100%;
         padding:30px 50px;
     }
+
     .logo-media-items{
         flex-direction: column-reverse;
     }
+
     .logo-footer{
         padding-top:10px;
     }
@@ -535,30 +565,29 @@ footer{
         gap:10px;
         margin-top: 30px;
     }
+
     .lists-container{
-        width: 40%;
+        width: 47%;
         height: 150px;
         padding: 0;
     }
+
     .form-container{
         width: 25%;
         padding: 0;
         height: 150px;
         
     }
+
     .form-container>form>.input{
-        margin-top: 10px;
-        
+        margin-top: 10px;    
     }
   
     .copy{
         position: absolute;
         bottom:2%;
-        right: 15%;
-
-       
-       
+        right: 12%;
     }
 }
 
-
+/* fin :D */
